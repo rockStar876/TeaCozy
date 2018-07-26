@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h2, h3, h4, h5{
+  margin: 10px 0;
+}
+
+
+
+header{
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.logo{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 50px;
+}
+a{
+  padding: 0 10px;
+  color: seashell;
+}
+
+
+
+.our_mission{
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  top: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+}
+.our_mission_text{
+  width:1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
+
+.tea_of_the_class{
+  width: 1000px;
+  margin:auto;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tea_of_the_class_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.three_pictures{
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.two_pictures{
+  display: flex;
+  justify-content: center;
+}
+.tea_of_the_class img{
+  width: 300px;
+  height: 200px;
+}
+.spiced{
+  margin: 0 50px;
+}
+.myrtle{
+  margin-right: 50px;
+}
+
+
+
+.locations{
+  width:1200px;
+  height: 500px;
+  margin: 80px auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+}
+.locations_text{
+  margin: 70px 0 5px 0;
+}
+.adresses{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downtown, .east, .oakdale{
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+}
+.east{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+.contact{
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact h2{
+  margin-bottom: 30px;
+}
+.contact h5{
+  margin-bottom: 20px;
+}
+
+
+
+footer{
+  text-align: left;
+  margin-left: 20px;
+}
